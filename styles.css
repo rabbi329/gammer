@@ -9,7 +9,7 @@
     width: 1920px;
     height: 130px;
     display: flex;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     margin: 0 auto;
     justify-content: space-between;
 
@@ -33,7 +33,7 @@
     font-style: normal;
     font-weight: 700;
 }
-span{
+.span1{
    background-image: linear-gradient(#FF42A5);
    color: transparent;
 }
@@ -57,7 +57,7 @@ li a{
 .btn{
     width: 266px;
     height: 66px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 10px;
     background-color:rgba(11, 2, 35, 0.10) ;
     display: flex;
@@ -75,7 +75,7 @@ li a{
 main{
     width: 1920px;
     height: 100%;
-    /* border: 1px solid rebeccapurple; */
+    border: 1px solid rebeccapurple;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -86,7 +86,7 @@ main{
 .banner-discription{
     width: 901px;
     height: 700px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 } 
 h4{
     color: #0B0223;
@@ -111,6 +111,7 @@ h2{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    
     }
 ul{
     display: block;
@@ -183,4 +184,139 @@ ul{
         display: flex;
         margin: 0 auto;
         margin-top: 40px;
+        justify-content: space-between;
+        align-items: center;
     }
+    .img2{
+        padding-left: 240px;
+    }
+
+    .section2-description{
+        margin-right: 240px;
+        text-align: right;
+
+        
+    }
+
+    h3{
+        font-family: Work Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .discription{
+        color: #534C64;
+        text-align: right;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+
+    }
+    .btn2{
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        color: #FFF;
+        background-color: #F948B2;
+        border-radius: 45px;
+    }
+    span{
+        color: #534C64;
+        text-align: right;
+        font-family: Work Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .title2{
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    /*section3*/
+
+    .section4{
+        width: 1920px;
+        height: 100%;
+        border: 1px solid blue;
+        margin: 0 auto;
+        
+    }
+    .title3{
+        margin-left: 240px;
+        text-align: center;
+    }
+    .pragraph{
+        margin-left: 240px;
+        text-align: center;
+        color: #534C64;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+       
+    }
+    .title3{
+        color: #0B0223;
+        
+        font-family: Work Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .size{
+        font-size: 48px;
+    }
+
+    /*card section*/
+    .card-section{
+      display: flex;
+      margin-left: 240px;  
+      gap: 20px;
+}
+.title-card{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* section-4 */
+
+.section-img{
+    width: 1920px;
+    height:1000px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+.left-image{
+    margin-left: 238px;
+    
+}
+.angle{
+    position: absolute;
+    right:10px ;
+    bottom: 10px;
+    left: 800px;
+   
+
+}
+
+.right-discription{
+    margin-right: 240px ;
+}
+    
+    
