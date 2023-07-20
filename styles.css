@@ -45,6 +45,7 @@
 ul{
     display: flex;
     gap: 70px;
+    align-items: center;
 
 }
 li{
@@ -68,6 +69,8 @@ li a{
     display: flex;
     gap: 10px;
     padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 240px;
     align-items: center;
     cursor: pointer;
 }
@@ -103,7 +106,12 @@ main{
     background-image: url(images/Group\ 14.png);
     border-color: #4EC5F7;
 }
+.heading{
+   padding-top: 30pxz;
+}
 h4{
+    /* position: absolute;
+    top: 10px; */
     color: #0B0223;
     text-align: center;
     font-family: Work Sans;
@@ -128,8 +136,8 @@ h2{
     color: transparent;
     
     }
-ul{
-    display: flex;
+.block{
+    display: block;
     align-items: center;
     
 
@@ -386,17 +394,32 @@ ul{
 }
 /*section-6*/
 .log-container{
-     width: 1920px;
+    width: 1920px;
     height: 227px;
-    
     display: flex;
     margin: 0 auto;
     margin-left: 200px;
+    margin-right: 200px;
     /* margin-left: 320px; */
     align-items: center;
     padding: 20px;
     
     
+}
+.btn8{
+    align-items: center;
+    border: 1px solid purple;
+    border-radius: 50px;
+    display: flex;
+    padding-left:  100px;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-left: 5px;
+
 }
 .btn6{
     align-items: center;
@@ -413,6 +436,8 @@ ul{
     
     
 
+}.btn9{
+    /* border: 1px solid purple; */
 }
 
 .btn6:hover{
@@ -510,3 +535,21 @@ img{
     line-height: normal;
     margin-top: 40px;
 }
+
+
+
+
+/* Default styles for all devices */
+* {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Styles for mobile devices and larger (min-width: 576px) */
+  @media only screen and (min-width: 360px) and (max-width: 768px) {
+      .logo-container{
+          flex-direction: column;
+          margin: auto;
+          margin-bottom: 10px;
+      }
+  }
+    
